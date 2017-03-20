@@ -1,2 +1,3 @@
 # Ascension
-Python/Pygame 2D platformer (work in progress)
+My first serious Pygame game. So far there are 30 levels, but I am by no means finished. 
+A unique feature of this game is its use of png files to construct levels - instead of making each level by manually writing coordinates, the programmer can just make a png file that acts as a "map" for each level. In this file, each pixel's RED and GREEN channels represent the type of block it represents in the level, and each pixel's BLUE channel represents its special properties (such as being a rail for a moving block to ride on). Each pixel's position in the file also represents its coordinates in the game. In this way, by using a combination of placement and color, a programmer can easily make and test levels from scratch, without having to spend hours fine-tuning exact coordinates.
